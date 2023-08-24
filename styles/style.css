@@ -1,0 +1,529 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+
+.about-us {
+    margin-top: -100px;
+}
+
+.left-content {
+    margin-top: 200px;
+}
+
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+
+
+
+
+.welcome{
+    padding: 150px 0;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(/images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    width: 100vw;
+}
+
+
+.welcome .intro{
+    max-width: 700px;
+    margin: auto;
+}
+
+
+.welcome h1{
+    font-size: 3rem;
+}
+
+
+
+.welcome .info .row{
+    background-color: #fff;
+    color: black;
+    margin: 60px 0;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+
+.welcome .info .row p{
+    color: #605f5f;
+}
+
+
+.welcome .info .col-xl-2{
+    margin: 15px 0;
+    padding: 10px;
+}
+
+.welcome .info .col-xl-2 i{
+    color: #E9AD28;
+}
+
+.welcome .info .box{
+    border: 1px solid black;
+}
+
+.welcome .info .col-xl-2 .box{
+    position: relative;
+    width: 100%;
+}
+
+.welcome .info .check .box{
+    width: 80%;
+}
+
+
+.welcome .info .col-xl-2 .box input{
+    width: 100%;
+    padding: 0 0 0 40px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+
+.welcome .info .check .box span{
+    position: absolute;
+    left: 8px;
+    top: 2px;
+}
+
+
+
+.welcome .info .location .box input{
+    padding: 0 40px 0 5px;
+}
+
+
+.welcome .info .location .box span{
+    position: absolute;
+    right: 15px;
+    top: 2px;
+}
+
+
+
+
+.welcome .info .person .box select{
+    width: 100%;
+    padding: 0 5px 0 35px;
+    border: none;
+    outline: none;
+}
+
+.welcome .info .person .box span{
+    position: absolute;
+    left: 8px;
+    top: 2px;
+}
+
+
+
+
+
+
+
+.welcome .intro p{
+    color: rgb(228, 134, 57);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.welcome .info input , select{
+    width: 100%;
+}
+
+
+.welcome .info .btn-welcome{
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+
+
+.welcome .info .col-btn{
+    padding: 0;
+    margin: 0;   
+}
+
+
+.welcome .info .col-btn .btn-welcome{
+
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;    
+}
+
+
+
+.ourRoom .image{
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.ourRoom .image img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.ourRoom .image .description{
+    content: "";
+    width: 100%;
+    height: 35%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
+    padding: 0 40px;
+    padding-top: 10px;
+    transition: 0.5s;
+}
+
+
+.ourRoom .image .description h1{
+    position: relative;
+    padding: 0 10px;
+}
+
+
+.ourRoom .image .description .dollar{
+    position: absolute;
+    left: 0;
+}
+
+
+
+
+
+
+.ourRoom .image .description .booking{
+    margin-top: 200px;
+    opacity: 0;
+    transition: 1s;
+}
+
+
+
+.ourRoom .image .description .booking a{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    margin-top: 20px;
+}
+
+
+
+.ourRoom .image .description .booking a::before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: rgb(221, 154, 22);
+    position: absolute;
+    bottom: -4px;
+}
+
+
+
+.ourRoom .image:hover .description{
+    height: 100%;
+}
+
+
+.ourRoom .image:hover .booking{
+    opacity: 1;
+}
+
+
+.offers{
+    margin: 50px 0;
+}
+
+
+.offers .col-xl-3{
+    text-align: end;
+}
+
+.offers img{
+    width: 100%;
+}
+
+.offers  .btnExplorer{
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 0;
+}
+
+
+
+.offers  .btnExplorer:hover{
+    color: #fff;
+    background-color: #FFC107;
+}
+
+
+.offers  .btnNext .btn{
+    border-radius: 50%;
+    padding: 10px 15px;
+}
+
+
+
+.offers  .btnNext .btn:hover{
+    color: #fff;
+    background-color: #000;
+    
+}
+
+
+.offers h3{
+    font-weight: bold;
+}
+
+
+
+.offers .say-about-us .testimonials .title{
+    text-transform: uppercase;
+    color: #E9AD28;
+    font-weight: bold;
+}
+
+.offers .say-about-us .testimonials h1{
+    font-weight: bold;
+}
+
+
+
+.offers .say-about-us .testimonials .detailed{
+    font-weight: bold;
+}
+
+
+.offers .say-about-us .testimonials .evaluation{
+    color: #E9AD28;
+}
+
+.offers .say-about-us .testimonials p{
+    color:#262626;
+}
+
+
+.offers .say-about-us .testimonials .info{
+    margin: 10px 0;
+}
+
+
+.offers .say-about-us .testimonials .info .col-6{
+    padding: 0;
+}
+
+
+.offers .say-about-us .testimonials .name{
+    color: #E9AD28;
+    font-weight: bold;
+}
+
+
+
+.offers .say-about-us .testimonials .num-slide{
+    position: relative;
+}
+
+
+.offers .say-about-us .testimonials .num-slide .from::after{
+    content: "";
+    width: 30px;
+    height: 4px;
+    background-color: #E9AD28;
+    position: absolute;
+    top: 17px;
+    left: 50px;
+
+}
+
+
+
+.chooseUs{
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(https://themewagon.github.io/hiroto/img/chooseus-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    color: #fff;
+}
+
+
+.chooseUs p{
+    color: #E9AD28;
+    font-weight: bold;  
+    font-family: sans-serif;  
+    text-transform: uppercase;
+}
+
+
+.chooseUs h1{
+    font-size: 3rem;
+    font-weight: bold;   
+    font-family: "Barlow Condensed", sans-serif; 
+}
+
+
+.chooseUs .btn{
+    background-color: #fff; 
+    border-radius: 0;      
+    margin-top: 40px;
+    padding: 10px 30px;
+}
+
+.chooseUs .btn:hover{
+    background-color: #fff; 
+    color: black;
+}
+
+
+
+
+
+.ourGallery{
+    margin: 100px 0;
+}
+
+
+.ourGallery img{
+    width: 100%;
+    height: 700px;
+}
+
+
+
+.ourGallery .gallery{
+    color: #E9AD28;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+
+.ourGallery h1{
+    font-weight: 600;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+
+.ourGallery .btn{
+    border-radius: 0;
+    padding: 10px 40px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.ourGallery .btn:hover{
+    color: #fff;
+    background-color: #FFC107;
+}
+
+.ourGallery .btn i{
+    margin-left: 10px;
+}
+
+
+
+
+@media (max-width: 1000px){
+    
+    
+    
+    .welcome .info .row{
+        padding: 30px;
+        gap: 20px;
+    }    
+
+    
+    .welcome .info .check .box{
+        width: 100%;
+    }
+    
+    
+    .welcome .info .check .box span{
+        top: 0px;
+    }
+    
+    
+    
+    .welcome .info .location .box input{
+        padding: 0 40px 0 5px;
+    }
+    
+    
+    .welcome .info .location .box span{
+        top: 0px;
+    }
+    
+    
+    
+    
+    .welcome .info .person .box select{
+        width: 100%;
+        padding: 0 5px 0 45px;
+        border: none;
+        outline: none;
+    }
+    
+    .welcome .info .person .box span{
+        top: 0px;
+    }
+
+
+
+    .ourRoom .row .col-md-6{
+        margin-bottom: 25px;
+    }
+
+    
+    
+    .offers .col-xl-3{
+        text-align: start;
+    }
+    
+    
+    .ourGallery .slideImage .col-md-12{
+        margin-bottom: 20px;
+    }
+
+
+    
+    .container .rowImage .col-md-6{
+        margin-bottom: 20px;
+    }
+    
+    
+}
+
+
+
+@media (max-width: 700px){
+    .about-us .right-content img{
+        width: 90%;
+    }
+
+}
+
+
+
+
